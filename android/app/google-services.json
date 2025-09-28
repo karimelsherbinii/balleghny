@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "861165103786",
+    "project_id": "ballaghny-aleslam",
+    "storage_bucket": "ballaghny-aleslam.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861165103786:android:f635416f757a2cdbf23ed3",
+        "android_client_info": {
+          "package_name": "com.badeea.ballaghny"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIIrB63lyET_Mkl_3KTvcV6j1TeO_W_2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861165103786:android:66866ab36cc8aaa5f23ed3",
+        "android_client_info": {
+          "package_name": "com.badeea.balligni"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIIrB63lyET_Mkl_3KTvcV6j1TeO_W_2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

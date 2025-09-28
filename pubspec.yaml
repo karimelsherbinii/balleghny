@@ -1,0 +1,131 @@
+name: ballaghny
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 3.4.23+24
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  animated_text_kit: ^4.2.2
+  bloc: ^8.1.4
+  cached_network_image: ^3.2.1
+  cupertino_icons: ^1.0.8
+  dartz: ^0.10.1
+  dio: ^5.7.0
+  equatable: ^2.0.3
+  firebase_analytics: ^11.3.6
+  firebase_auth: ^5.3.4
+  firebase_core: ^3.9.0
+  firebase_messaging: ^15.1.6
+  cloud_firestore: ^5.4.3
+  fl_chart: ^1.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_cache_manager: ^3.3.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_local_notifications: ^19.2.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_native_splash: ^2.3.10
+  flutter_phoenix: ^1.0.0
+  flutter_screenutil: ^5.9.3
+  flutter_spinkit: ^5.1.0
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  flutter_svg: ^2.0.10+1
+  flutter_widget_from_html_core: ^0.15.2
+  fluttertoast: ^8.2.8
+  get_it: ^8.0.0
+  google_sign_in: ^6.2.1
+  hexcolor: ^3.0.1
+  image_picker: ^1.0.7
+  internet_connection_checker: ^1.0.0+1
+  intl: ^0.20.2
+  intl_phone_number_input_v2: ^0.0.2
+  octo_image: ^2.0.0
+  open_filex: ^4.7.0
+  path: ^1.8.1
+  path_provider: ^2.0.11
+  percent_indicator: ^4.2.3
+  # permission_handler: ^11.3.1
+  pinput: ^5.0.0
+  pull_to_refresh: ^2.0.0
+  rxdart: ^0.28.0
+  share_plus: ^11.0.0
+  shared_preferences: ^2.3.4
+  simple_animations: ^5.0.2
+  supercharged: ^2.1.1
+  timeago: ^3.7.0
+  transparent_image: ^2.0.0
+  url_launcher: ^6.1.5
+  validators: ^3.0.0
+  webview_flutter: ^4.4.2
+  webview_flutter_android: ^3.15.0
+  webview_flutter_wkwebview: ^3.10.0
+
+dependency_overrides:
+  js: ^0.6.3
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/native-splash.png
+  background_image: assets/images/native-splash.png
+  android: true
+  android_gravity: fill
+  # branding: assets/imgs//pngs/splash.png
+  #flutter pub run flutter_native_splash:create
+  #flutter pub run flutter_native_splash:remove
+
+flutter_launcher_icons:
+  image_path: "assets/images/app_icon.png"
+  image_path_android: "assets/images/app_icon.png"
+  image_path_ios: "assets/images/app_icon.png"
+  #background color
+  background_color: "#002e5f"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  # flutter pub run flutter_launcher_icons
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lang/en.json
+    - lang/ar.json
+    - assets/icons/
+    - assets/fonts/
+    - assets/images/
+    - assets/images/white_image.PNG
+    - assets/countries.json
+    - assets/countries_ar.json
+    - .env
+
+  #fonts
+  fonts:
+    - family: IBMPlexSansArabic
+      fonts:
+        - asset: assets/fonts/IBMPlexSansArabic-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/IBMPlexSansArabic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/IBMPlexSansArabic-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/IBMPlexSansArabic-Light.ttf
+          weight: 300
+        - asset: assets/fonts/IBMPlexSansArabic-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/IBMPlexSansArabic-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/IBMPlexSansArabic-Thin.ttf
+          weight: 100
